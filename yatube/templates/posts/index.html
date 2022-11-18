@@ -3,9 +3,7 @@
 {% load static %}
 {% include 'includes/head.html' %}
 
-{% block title %}
-  Последние обновления на сайте
-{% endblock title %}
+{% block title %}{{context}}{% endblock title %}
 
 {% block content %}
   <div class="container py-5">     
